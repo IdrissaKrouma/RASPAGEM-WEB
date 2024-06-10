@@ -1,3 +1,17 @@
+# React
+'''
+    npx create-react-app nom
+    npm install axios
+    npm install -D tailwindcss 
+    npm install react-icons
+    npx tailwindcss init
+    npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
+    npm install react-icons
+
+    # start react
+    npm start 
+'''
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
