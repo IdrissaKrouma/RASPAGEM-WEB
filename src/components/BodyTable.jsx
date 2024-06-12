@@ -13,7 +13,9 @@ const BodyTable = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await axios.get('http://127.0.0.1:8000/actions');
+                // http://127.0.0.1:8000/actions local
+                // https://krouma.alwaysdata.net/ en ligne
+                const response = await axios.get('https://krouma.alwaysdata.net/actions');
                 setData(response.data.top5);
             } catch (error) {
                 setError('Error fetching data');
